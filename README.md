@@ -1,5 +1,5 @@
 # This repository
-[https://brainmagicproduct.com](Orbital2) Application older releases.
+Orbital2([https://brainmagicproduct.com](Orbital2)) Application older releases.
 
 
 # Current version
