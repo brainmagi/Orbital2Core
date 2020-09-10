@@ -1,0 +1,519 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "flick",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-N4ZQmY2WL"
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "MetaLeft"
+          },
+          {
+            "code": "KeyD"
+          }
+        ],
+        "name": "Layer duplication",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "MetaLeft"
+          },
+          {
+            "code": "KeyD"
+          }
+        ],
+        "name": "Split layer by current time",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "flick",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-7RIWHEqHr"
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 255,
+        "g": 180,
+        "b": 110
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "Undo/Redo",
+        "left": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "Undo",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "Redo",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "down": {
+        "name": "10 frame Undo/Redo",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "10 frame Undo",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "10 frame Redo",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "left": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "right": {
+        "name": "1 frame Undo/Redo",
+        "left": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "1 frame Undo",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "1 frame Redo",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upLeft": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downLeft": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upRight": {
+        "name": "",
+        "left": {
+          "keys": [],
+          "name": "",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [],
+          "name": "",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downRight": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "down": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "leftRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "press": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "rightRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": [
+      {
+        "name": "New composition",
+        "id": "group-N4ZQmY2WL",
+        "items": [
+          {
+            "type": "keyStroke",
+            "name": "Create new composition",
+            "keys": [
+              {
+                "code": "MetaLeft"
+              },
+              {
+                "code": "KeyN"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Composition setting",
+            "keys": [
+              {
+                "code": "MetaLeft"
+              },
+              {
+                "code": "KeyK"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Create new plane layer",
+            "keys": [
+              {
+                "code": "MetaLeft"
+              },
+              {
+                "code": "KeyY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Layer setting",
+        "id": "group-7RIWHEqHr",
+        "items": [
+          {
+            "type": "keyStroke",
+            "name": "Layer mask",
+            "keys": [
+              {
+                "code": "KeyM"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Open the layer's opacity",
+            "keys": [
+              {
+                "code": "KeyT"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Open layer position",
+            "keys": [
+              {
+                "code": "KeyP"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Open layer rotation",
+            "keys": [
+              {
+                "code": "KeyR"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Open layer scale",
+            "keys": [
+              {
+                "code": "KeyS"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Opne layer audio level",
+            "keys": [
+              {
+                "code": "KeyL"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Opne all keyframes in layer",
+            "keys": [
+              {
+                "code": "KeyU"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "flickGroups": {
+    "groups": []
+  }
+}

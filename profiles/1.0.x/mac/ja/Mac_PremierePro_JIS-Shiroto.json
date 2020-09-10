@@ -1,0 +1,466 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "delay": 0,
+        "file": "",
+        "function": "switch_profile",
+        "name": "プロファイルの切り替え",
+        "repeat": 1,
+        "type": "otherFunction"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "MetaLeft"
+          },
+          {
+            "code": "KeyR"
+          }
+        ],
+        "name": "クリップの速度・デュレーション",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "MetaLeft"
+          },
+          {
+            "code": "KeyS"
+          }
+        ],
+        "name": "保存",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "Space"
+          }
+        ],
+        "name": "Play",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "MetaLeft"
+          },
+          {
+            "code": "KeyM"
+          }
+        ],
+        "name": "メディア",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "Escape"
+          }
+        ],
+        "name": "Escape",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [],
+        "name": "Lumetri スコープ",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyG"
+          }
+        ],
+        "name": "オーディオゲイン",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 255,
+        "g": 0,
+        "b": 177,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "1フレーム移動",
+        "left": {
+          "keys": [
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "１フレーム前へ移動",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "１フレーム崎へ移動",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "down": {
+        "name": "シーケンスズーム",
+        "left": {
+          "keys": [
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "ズームアウト",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Equal"
+            }
+          ],
+          "name": "ズームイン",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [],
+          "name": "ズーム",
+          "type": "keyStroke"
+        }
+      },
+      "left": {
+        "name": "ビデオトラックの高さを調節",
+        "left": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "高さを低く",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "Equal"
+            }
+          ],
+          "name": "高さを高く",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "right": {
+        "name": "編集点を移動",
+        "left": {
+          "keys": [
+            {
+              "code": "ArrowUp"
+            }
+          ],
+          "name": "前の編集ポイントへ移動",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ArrowDown"
+            }
+          ],
+          "name": "次の編集ポイントへ移動",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upLeft": {
+        "name": "パネルをフルスクリーン化",
+        "left": {
+          "keys": [
+            {
+              "code": "BracketLeft"
+            }
+          ],
+          "name": "パネルをフルスクリーン化",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "BracketLeft"
+            }
+          ],
+          "name": "パネルをフルスクリーン化",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downLeft": {
+        "name": "オーディオトラックの高さの調節",
+        "left": {
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "高さを低く",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "Equal"
+            }
+          ],
+          "name": "高さを高く",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upRight": {
+        "name": "10フレーム移動",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "10フレーム前へ移動",
+          "repeat": "2",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "10フレーム先へ移動",
+          "repeat": "2",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downRight": {
+        "name": "開始位置/終了位置に移動",
+        "left": {
+          "keys": [
+            {
+              "code": "Home"
+            }
+          ],
+          "name": "開始位置に移動",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "End"
+            }
+          ],
+          "name": "終了位置に移動",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "down": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "leftRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "press": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "rightRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": []
+  },
+  "flickGroups": {
+    "groups": []
+  },
+  "meta": {
+    "platform": "macOS",
+    "schema_app_version": "1.0.0",
+    "create_app_version": "1.0.3",
+    "modify_time": "2019-09-02T20:34:13+09:00"
+  }
+}

@@ -1,0 +1,769 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyM"
+          }
+        ],
+        "name": "Edit Mesh",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "down": {
+      "enabled": "flick",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-DDg1H2uND"
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyA"
+          }
+        ],
+        "name": "reverse",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyD"
+          }
+        ],
+        "name": "play",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upLeft": {
+      "enabled": "flick",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-ziwvN1GrI"
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyH"
+          }
+        ],
+        "name": "Visibility",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [],
+        "name": "",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "name": "undo",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 230,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "タイムライン",
+        "left": {
+          "keys": [
+            {
+              "code": "KeyF"
+            }
+          ],
+          "name": "",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "KeyR"
+            }
+          ],
+          "name": "",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyL"
+            }
+          ],
+          "name": "key",
+          "type": "keyStroke"
+        }
+      },
+      "down": {
+        "name": "拡大縮小",
+        "left": {
+          "delay": 0,
+          "function": "scroll_down",
+          "name": "縮小",
+          "repeat": 1,
+          "type": "mouseFunction"
+        },
+        "right": {
+          "delay": 0,
+          "function": "scroll_up",
+          "name": "拡大",
+          "repeat": 1,
+          "type": "mouseFunction"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyF"
+            }
+          ],
+          "name": "Zoom To 100%",
+          "type": "keyStroke"
+        }
+      },
+      "left": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "right": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upLeft": {
+        "name": "ツール切り替え",
+        "left": {
+          "delay": 0,
+          "key_1": [
+            {
+              "code": "KeyC"
+            }
+          ],
+          "key_10": [],
+          "key_2": [
+            {
+              "code": "KeyV"
+            }
+          ],
+          "key_3": [
+            {
+              "code": "KeyX"
+            }
+          ],
+          "key_4": [
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "key_5": [],
+          "key_6": [],
+          "key_7": [],
+          "key_8": [],
+          "key_9": [],
+          "name": "reverse(key rotation)",
+          "repeat": 1,
+          "type": "keyRotation"
+        },
+        "right": {
+          "delay": 0,
+          "key_1": [
+            {
+              "code": "KeyC"
+            }
+          ],
+          "key_10": [],
+          "key_2": [
+            {
+              "code": "KeyV"
+            }
+          ],
+          "key_3": [
+            {
+              "code": "KeyX"
+            }
+          ],
+          "key_4": [
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "key_5": [],
+          "key_6": [],
+          "key_7": [],
+          "key_8": [],
+          "key_9": [],
+          "name": "reverse(key rotation)",
+          "repeat": 1,
+          "type": "keyRotation"
+        },
+        "click": {
+          "delay": 0,
+          "key_1": [],
+          "key_10": [],
+          "key_2": [],
+          "key_3": [],
+          "key_4": [],
+          "key_5": [],
+          "key_6": [],
+          "key_7": [],
+          "key_8": [],
+          "key_9": [],
+          "name": "",
+          "repeat": 1,
+          "type": "keyRotation"
+        }
+      },
+      "downLeft": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upRight": {
+        "name": "表示順",
+        "left": {
+          "keys": [
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "表示順を下げます",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "表示順をあげます",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downRight": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "down": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "leftRota": {
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "KeyC"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "KeyV"
+          }
+        ],
+        "key_3": [
+          {
+            "code": "KeyX"
+          }
+        ],
+        "key_4": [
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "name": "ツール切り替え",
+        "repeat": 1,
+        "type": "keyRotation"
+      },
+      "press": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "rightRota": {
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "KeyX"
+          }
+        ],
+        "key_3": [
+          {
+            "code": "KeyV"
+          }
+        ],
+        "key_4": [
+          {
+            "code": "KeyC"
+          }
+        ],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "name": "ツール切り替え",
+        "repeat": 1,
+        "type": "keyRotation"
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": [
+      {
+        "name": "ボーン登録",
+        "id": "group-ziwvN1GrI",
+        "items": [
+          {
+            "type": "keyStroke",
+            "name": "Set 1",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit1"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Set 2",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit2"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Set 3",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit3"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Set 4",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit4"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Set 5",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit5"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Set 6",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit6"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Set 7",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit7"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Set 8",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit8"
+              }
+            ]
+          },
+          {
+            "type": "keyStroke",
+            "name": "Set 9",
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "Digit9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "flickGroups": {
+    "groups": [
+      {
+        "name": "Others",
+        "id": "group-DDg1H2uND",
+        "items": {
+          "up": {
+            "keys": [
+              {
+                "code": "KeyN"
+              }
+            ],
+            "name": "Create Tool",
+            "type": "keyStroke"
+          },
+          "down": {
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyI"
+              }
+            ],
+            "name": "Show Images",
+            "type": "keyStroke"
+          },
+          "left": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "right": {
+            "keys": [
+              {
+                "code": "ShiftLeft"
+              },
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyB"
+              }
+            ],
+            "name": "Select Bones",
+            "type": "keyStroke"
+          },
+          "upLeft": {
+            "keys": [
+              {
+                "code": "KeyG"
+              }
+            ],
+            "name": "Weight Tool",
+            "type": "keyStroke"
+          },
+          "downLeft": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "upRight": {
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyB"
+              }
+            ],
+            "name": "Show Bones",
+            "type": "keyStroke"
+          },
+          "downRight": {
+            "keys": [
+              {
+                "code": "ShiftLeft"
+              },
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyL"
+              }
+            ],
+            "name": "Select Images",
+            "type": "keyStroke"
+          }
+        }
+      },
+      {
+        "name": "ボーン登録",
+        "id": "group-FFxlmXnny",
+        "items": {
+          "up": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "down": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "left": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "right": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "upLeft": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "downLeft": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "upRight": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "downRight": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          }
+        }
+      }
+    ]
+  },
+  "meta": {
+    "platform": "macOS",
+    "schema_app_version": "1.0.0",
+    "create_app_version": "1.1.1",
+    "modify_time": "2019-10-03T15:11:01+09:00"
+  }
+}

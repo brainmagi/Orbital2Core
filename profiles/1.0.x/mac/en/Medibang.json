@@ -1,0 +1,599 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          }
+        ],
+        "name": "Shift",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "down": {
+      "enabled": "flick",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-PZLkzdm2c"
+      }
+    },
+    "left": {
+      "enabled": "flick",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-T54ZmR$3A"
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "AltLeft"
+          }
+        ],
+        "name": "Alt",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 255,
+        "g": 180,
+        "b": 110
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "Undo/Redo",
+        "left": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "Undo",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyY"
+            }
+          ],
+          "name": "Redo",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "down": {
+        "name": "Scaling",
+        "left": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "Small",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "Big",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "Undo",
+          "type": "keyStroke"
+        }
+      },
+      "left": {
+        "name": "Tool switching",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "delay": 0,
+          "key_1": [
+            {
+              "code": "KeyB"
+            }
+          ],
+          "key_10": [],
+          "key_2": [
+            {
+              "code": "KeyE"
+            }
+          ],
+          "key_3": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "KeyB"
+            }
+          ],
+          "key_4": [
+            {
+              "code": "KeyV"
+            }
+          ],
+          "key_5": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "key_6": [
+            {
+              "code": "KeyG"
+            }
+          ],
+          "key_7": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "KeyG"
+            }
+          ],
+          "key_8": [],
+          "key_9": [],
+          "name": "Tool switching",
+          "repeat": 1,
+          "type": "keyRotation"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "right": {
+        "name": "Canvas rotation",
+        "left": {
+          "keys": [
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "Left rotation",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "Right rotation",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "Undo",
+          "type": "keyStroke"
+        }
+      },
+      "upLeft": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downLeft": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upRight": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downRight": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "down": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "leftRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "press": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "rightRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": []
+  },
+  "flickGroups": {
+    "groups": [
+      {
+        "name": "Tool",
+        "id": "group-PZLkzdm2c",
+        "items": {
+          "up": {
+            "keys": [
+              {
+                "code": "KeyG"
+              }
+            ],
+            "name": "Bucket",
+            "type": "keyStroke"
+          },
+          "down": {
+            "keys": [
+              {
+                "code": "KeyL"
+              }
+            ],
+            "name": "Lasso",
+            "type": "keyStroke"
+          },
+          "left": {
+            "keys": [
+              {
+                "code": "KeyB"
+              }
+            ],
+            "name": "Brush",
+            "type": "keyStroke"
+          },
+          "right": {
+            "keys": [
+              {
+                "code": "KeyI"
+              }
+            ],
+            "name": "Eyedropper",
+            "type": "keyStroke"
+          },
+          "upLeft": {
+            "keys": [
+              {
+                "code": "KeyE"
+              }
+            ],
+            "name": "Eraser",
+            "type": "keyStroke"
+          },
+          "downLeft": {
+            "keys": [
+              {
+                "code": "KeyT"
+              }
+            ],
+            "name": "Text",
+            "type": "keyStroke"
+          },
+          "upRight": {
+            "keys": [
+              {
+                "code": "KeyN"
+              }
+            ],
+            "name": "Gradation",
+            "type": "keyStroke"
+          },
+          "downRight": {
+            "keys": [
+              {
+                "code": "KeyH"
+              }
+            ],
+            "name": "Hand Tool",
+            "type": "keyStroke"
+          }
+        }
+      },
+      {
+        "name": "Ruler",
+        "id": "group-T54ZmR$3A",
+        "items": {
+          "up": {
+            "keys": [
+              {
+                "code": "Digit3"
+              }
+            ],
+            "name": "Cross",
+            "type": "keyStroke"
+          },
+          "down": {
+            "keys": [
+              {
+                "code": "Digit7"
+              }
+            ],
+            "name": "Curve",
+            "type": "keyStroke"
+          },
+          "left": {
+            "keys": [
+              {
+                "code": "Digit1"
+              }
+            ],
+            "name": "Ruler off",
+            "type": "keyStroke"
+          },
+          "right": {
+            "keys": [
+              {
+                "code": "Digit5"
+              }
+            ],
+            "name": "Central line",
+            "type": "keyStroke"
+          },
+          "upLeft": {
+            "keys": [
+              {
+                "code": "Digit2"
+              }
+            ],
+            "name": "Parellel",
+            "type": "keyStroke"
+          },
+          "downLeft": {
+            "keys": [
+              {
+                "code": "Digit8"
+              }
+            ],
+            "name": "Redo",
+            "type": "keyStroke"
+          },
+          "upRight": {
+            "keys": [
+              {
+                "code": "Digit4"
+              }
+            ],
+            "name": "Vanishing point",
+            "type": "keyStroke"
+          },
+          "downRight": {
+            "keys": [
+              {
+                "code": "Digit6"
+              }
+            ],
+            "name": "Concentric circles",
+            "type": "keyStroke"
+          }
+        }
+      }
+    ]
+  }
+}

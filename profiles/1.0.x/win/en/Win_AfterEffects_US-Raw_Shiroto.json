@@ -1,0 +1,485 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "delay": 0,
+        "file": "",
+        "function": "switch_profile",
+        "name": "Change Profiles",
+        "repeat": 1,
+        "type": "otherFunction"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyS"
+          }
+        ],
+        "name": "Scale",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyS"
+          }
+        ],
+        "name": "Save",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "Tab"
+          }
+        ],
+        "name": "Mini Flowchart",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "AltLeft"
+          },
+          {
+            "code": "Digit0"
+          }
+        ],
+        "name": "Render Queue",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyP"
+          }
+        ],
+        "name": "Position",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "Tab"
+          }
+        ],
+        "name": "FX Console",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyR"
+          }
+        ],
+        "name": "Rotation",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 160,
+        "g": 0,
+        "b": 255,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "[Move] 1 Frame",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "-1 Frame",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "+1 Frame",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [],
+          "name": "",
+          "type": "keyStroke"
+        }
+      },
+      "down": {
+        "name": "[Zoom] Composition",
+        "left": {
+          "keys": [
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "Zoom Out",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Equal"
+            }
+          ],
+          "name": "Zoom In",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "1 Frame / Entire",
+          "type": "keyStroke"
+        }
+      },
+      "left": {
+        "name": "[Select] Layer",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "ArrowDown"
+            }
+          ],
+          "name": "Down",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "ArrowUp"
+            }
+          ],
+          "name": "Up",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "right": {
+        "name": "[Move] Keyframe",
+        "left": {
+          "keys": [
+            {
+              "code": "KeyJ"
+            }
+          ],
+          "name": "Previous Keyframe",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "KeyK"
+            }
+          ],
+          "name": "Next Keyframe",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upLeft": {
+        "name": "Panel to Full Screen",
+        "left": {
+          "keys": [
+            {
+              "code": "Backquote"
+            }
+          ],
+          "name": "Panel to Full Screen",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Backquote"
+            }
+          ],
+          "name": "Panel to Full Screen",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downLeft": {
+        "name": "[Zoom] Viewer",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "Zoom Out",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Equal"
+            }
+          ],
+          "name": "Zoom In",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "Slash"
+            }
+          ],
+          "name": "100%",
+          "type": "keyStroke"
+        }
+      },
+      "upRight": {
+        "name": "[Move] 10 Frames",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "-10 Frames",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "+10 Frames",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downRight": {
+        "name": "[Move] In Out",
+        "left": {
+          "keys": [
+            {
+              "code": "Home"
+            }
+          ],
+          "name": "In",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "End"
+            }
+          ],
+          "name": "Out",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "down": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "leftRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "press": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "rightRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": []
+  },
+  "flickGroups": {
+    "groups": []
+  }
+}

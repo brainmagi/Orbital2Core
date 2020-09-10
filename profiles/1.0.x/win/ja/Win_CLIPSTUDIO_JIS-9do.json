@@ -1,0 +1,531 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "スポイト",
+        "keys": [
+          {
+            "code": "KeyI"
+          }]
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "投げ縄",
+        "keys": [
+          {
+            "code": "KeyF"
+          }]
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "描画色と透明色を切り替え",
+        "keys": [
+          {
+            "code": "KeyC"
+          }]
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "長方形選択",
+        "keys": [
+          {
+            "code": "KeyN"
+          }]
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "消しゴム",
+        "keys": [
+          {
+            "code": "KeyE"
+          }]
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "操作(オブジェクト)",
+        "keys": [
+          {
+            "code": "KeyO"
+          }]
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyRotation",
+        "name": "ペン",
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "KeyP"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "KeyS"
+          }
+        ],
+        "key_3": [],
+        "key_4": [],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "repeat": 1
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "囲って塗る",
+        "keys": [
+          {
+            "code": "Key"
+          }]
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 0,
+        "g": 255,
+        "b": 0
+      },
+      "orbital_engine": {
+        "r": 37,
+        "g": 97,
+        "b": 14
+      },
+      "joystick": {
+        "r": 78,
+        "g": 122,
+        "b": 28
+      },
+      "mouse": {
+        "r": 0,
+        "g": 158,
+        "b": 42
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "反転",
+        "left": {
+          "type": "keyStroke",
+          "name": "左右反転",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyH"
+            }]
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "左右反転",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyH"
+            }]
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "なし",
+          "keys": []
+        }
+      },
+      "down": {
+        "name": "回転",
+        "left": {
+          "type": "keyStroke",
+          "name": "反時計回りに15度回転",
+          "keys": [
+            {
+              "code": "Key-"
+            }]
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "時計回りに15度回転",
+          "keys": [
+            {
+              "code": "Key^"
+            }]
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "回転リセット",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Key0"
+            }]
+        }
+      },
+      "left": {
+        "name": "戻る進む",
+        "left": {
+          "type": "keyStroke",
+          "name": "戻る",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyZ"
+            }]
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "進む",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyY"
+            }]
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "なし",
+          "keys": []
+        }
+      },
+      "right": {
+        "name": "拡大縮小",
+        "left": {
+          "type": "keyStroke",
+          "name": "縮小",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Key-"
+            }]
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "拡大",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Key;"
+            }]
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "全体表示",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Key0"
+            }]
+        }
+      },
+      "upLeft": {
+        "name": "選択",
+        "left": {
+          "type": "keyStroke",
+          "name": "自動選択",
+          "keys": [
+            {
+              "code": "KeyW"
+            }]
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "未設定",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "未設定",
+          "keys": []
+        }
+      },
+      "downLeft": {
+        "name": "ペン",
+        "left": {
+          "type": "keyStroke",
+          "name": "ペン",
+          "keys": [
+            {
+              "code": "KeyP"
+            }]
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "ペン",
+          "keys": [
+            {
+              "code": "KeyS"
+            }]
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "なし",
+          "keys": []
+        }
+      },
+      "upRight": {
+        "name": "上下",
+        "left": {
+          "type": "keyStroke",
+          "name": "上下反転",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyG"
+            }]
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "上下反転",
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyG"
+            }]
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "なし",
+          "keys": []
+        }
+      },
+      "downRight": {
+        "name": "手のひら",
+        "left": {
+          "type": "keyStroke",
+          "name": "移動(手のひら)",
+          "keys": [
+            {
+              "code": "KeyH"
+            }]
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "移動(手のひら)",
+          "keys": [
+            {
+              "code": "KeyH"
+            }]
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "なし",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "type": "keyStroke",
+        "name": "なし",
+        "keys": []
+      },
+      "down": {
+        "type": "keyRotation",
+        "name": "範囲選択",
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "KeyF"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "KeyN"
+          }
+        ],
+        "key_3": [],
+        "key_4": [],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "repeat": 1
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "描画色と透明色を切り替え",
+        "keys": [
+            {
+              "code": "KeyC"
+            }]
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "囲って塗る",
+        "keys": [
+            {
+              "code": "KeyQ"
+            }]
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "消しゴム",
+        "keys": [
+            {
+              "code": "KeyE"
+            }]
+      },
+      "upRight": {
+        "type": "keyRotation",
+        "name": "ペン",
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "KeyP"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "KeyS"
+          }
+        ],
+        "key_3": [],
+        "key_4": [],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "repeat": 1
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "操作(オブジェクト)",
+        "keys": [
+            {
+              "code": "KeyO"
+            }]
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "自動選択",
+        "keys": [
+            {
+              "code": "KeyW"
+            }]
+      },
+      "leftRota": {
+        "type": "keyStroke",
+        "name": "戻る",
+        "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyZ"
+            }]
+      },
+      "press": {
+        "type": "keyStroke",
+        "name": "保存",
+        "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyS"
+            }]
+      },
+      "rightRota": {
+        "type": "keyStroke",
+        "name": "進む",
+        "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyY"
+            }]
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": []
+  },
+  "flickGroups": {
+    "groups": []
+  }
+}
