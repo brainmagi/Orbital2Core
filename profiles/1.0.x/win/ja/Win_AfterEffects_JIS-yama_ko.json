@@ -1,0 +1,486 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          }
+        ],
+        "name": "Shift",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "Delete"
+          }
+        ],
+        "name": "Delete",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "AltLeft"
+          }
+        ],
+        "name": "Alt",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "Numpad0"
+          }
+        ],
+        "name": "RAM Preview",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          }
+        ],
+        "name": "Ctrl",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [],
+        "name": "",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "Up / Down",
+        "left": {
+          "keys": [
+            {
+              "code": "ArrowDown"
+            }
+          ],
+          "name": "Down",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ArrowUp"
+            }
+          ],
+          "name": "Up",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "Enter"
+            }
+          ],
+          "name": "Enter",
+          "type": "keyStroke"
+        }
+      },
+      "down": {
+        "name": "Ctrl Z / S / Shift Z",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "down",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "Ctrl Shift Z",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyS"
+            }
+          ],
+          "name": "Ctrl S",
+          "type": "keyStroke"
+        }
+      },
+      "left": {
+        "name": "Pg Up / Pg Down",
+        "left": {
+          "keys": [
+            {
+              "code": "PageUp"
+            }
+          ],
+          "name": "Pg Up",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "PageDown"
+            }
+          ],
+          "name": "Pg Down",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [],
+          "name": "",
+          "type": "keyStroke"
+        }
+      },
+      "right": {
+        "name": "Left / Right",
+        "left": {
+          "keys": [
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "Left",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "Right",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "Enter"
+            }
+          ],
+          "name": "Enter",
+          "type": "keyStroke"
+        }
+      },
+      "upLeft": {
+        "name": "J / K",
+        "left": {
+          "keys": [
+            {
+              "code": "KeyJ"
+            }
+          ],
+          "name": "J",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "KeyK"
+            }
+          ],
+          "name": "K",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downLeft": {
+        "name": "F/G",
+        "left": {
+          "keys": [
+            {
+              "code": "KeyF"
+            }
+          ],
+          "name": "F",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "KeyG"
+            }
+          ],
+          "name": "G",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upRight": {
+        "name": "Layer Cut",
+        "left": {
+          "keys": [
+            {
+              "code": "AltRight"
+            },
+            {
+              "code": "Backslash"
+            }
+          ],
+          "name": "Out",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "AltRight"
+            },
+            {
+              "code": "BracketRight"
+            }
+          ],
+          "name": "in",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyD"
+            }
+          ],
+          "name": "Rift",
+          "type": "keyStroke"
+        }
+      },
+      "downRight": {
+        "name": "Layer Fit",
+        "left": {
+          "keys": [
+            {
+              "code": "Backslash"
+            }
+          ],
+          "name": "Fit Out",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "BracketRight"
+            }
+          ],
+          "name": "Fit in",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "ArrowUp"
+            }
+          ],
+          "name": "up",
+          "type": "keyStroke"
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "down": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "leftRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "press": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "rightRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": [
+      {
+        "name": "AE",
+        "id": "group-2BR0zRO6G",
+        "items": [
+          {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          }
+        ]
+      }
+    ]
+  },
+  "flickGroups": {
+    "groups": []
+  },
+  "meta": {
+    "platform": "Windows",
+    "schema_app_version": "1.0.0",
+    "create_app_version": "1.2.1",
+    "modify_time": "2020-04-14T18:00:24+09:00"
+  }
+}

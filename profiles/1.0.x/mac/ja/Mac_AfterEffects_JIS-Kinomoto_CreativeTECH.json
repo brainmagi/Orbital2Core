@@ -1,0 +1,4302 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "flick",
+      "switchMenu": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "AltLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyP",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyP",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyP",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyP",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowUp",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowUp",
+            "type": "keyup"
+          },
+          {
+            "code": "ArrowUp",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowUp",
+            "type": "keyup"
+          },
+          {
+            "code": "ArrowUp",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowUp",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ControlLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "BracketLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "BracketLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ControlLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyL",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyL",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyP",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyP",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyU",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyU",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyT",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyT",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "Digit8",
+            "type": "keydown"
+          },
+          {
+            "code": "Digit8",
+            "type": "keyup"
+          },
+          {
+            "code": "Digit2",
+            "type": "keydown"
+          },
+          {
+            "code": "Digit2",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyC",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyC",
+            "type": "keyup"
+          },
+          {
+            "code": "Enter",
+            "type": "keydown"
+          },
+          {
+            "code": "Enter",
+            "type": "keyup"
+          }
+        ],
+        "name": "上へ進み続ける",
+        "repeat": 1,
+        "type": "programMacro"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-twr1mqMEM"
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "delay": "500",
+        "keys": [
+          {
+            "code": "Tab",
+            "type": "keydown"
+          },
+          {
+            "code": "Tab",
+            "type": "keyup"
+          },
+          {
+            "code": "ArrowLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowLeft",
+            "type": "keyup"
+          }
+        ],
+        "name": "minichart up",
+        "repeat": "1",
+        "type": "programMacro"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "flick",
+      "switchMenu": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "AltLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyP",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyP",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ArrowLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ArrowLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ControlLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "BracketLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "BracketLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ControlLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyL",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyL",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyP",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyP",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyU",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyU",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyT",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyT",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "Digit8",
+            "type": "keydown"
+          },
+          {
+            "code": "Digit8",
+            "type": "keyup"
+          },
+          {
+            "code": "Digit2",
+            "type": "keydown"
+          },
+          {
+            "code": "Digit2",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyC",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyC",
+            "type": "keyup"
+          },
+          {
+            "code": "Enter",
+            "type": "keydown"
+          },
+          {
+            "code": "Enter",
+            "type": "keyup"
+          }
+        ],
+        "name": "左へ進み続ける",
+        "repeat": 1,
+        "type": "programMacro"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-pz42O$Wff"
+      }
+    },
+    "right": {
+      "enabled": "flick",
+      "switchMenu": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyT",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyT",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ControlLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ControlLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad1",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad1",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad0",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad0",
+            "type": "keyup"
+          },
+          {
+            "code": "Enter",
+            "type": "keydown"
+          },
+          {
+            "code": "Enter",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad7",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad5",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad7",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad5",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyO",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad1",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad0",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad1",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad0",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          },
+          {
+            "code": "PageDown",
+            "type": "keydown"
+          },
+          {
+            "code": "PageDown",
+            "type": "keyup"
+          }
+        ],
+        "name": "Quick Flash",
+        "repeat": 1,
+        "type": "programMacro"
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-RWegNFqnu"
+      }
+    },
+    "upLeft": {
+      "enabled": "flick",
+      "switchMenu": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "ControlLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "BracketLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "BracketLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "ControlLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyW",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyW",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyI",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyI",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyG",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyG",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyG",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyL",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyG",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyL",
+            "type": "keyup"
+          },
+          {
+            "code": "KeyE",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyE",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "Digit8",
+            "type": "keydown"
+          },
+          {
+            "code": "Digit8",
+            "type": "keyup"
+          },
+          {
+            "code": "ShiftLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad1",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad1",
+            "type": "keyup"
+          },
+          {
+            "code": "Space",
+            "type": "keydown"
+          },
+          {
+            "code": "Space",
+            "type": "keyup"
+          },
+          {
+            "code": "Comma",
+            "type": "keydown"
+          },
+          {
+            "code": "Comma",
+            "type": "keyup"
+          },
+          {
+            "code": "Space",
+            "type": "keydown"
+          },
+          {
+            "code": "Space",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad1",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad0",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad1",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad0",
+            "type": "keyup"
+          },
+          {
+            "code": "Numpad0",
+            "type": "keydown"
+          },
+          {
+            "code": "Numpad0",
+            "type": "keyup"
+          }
+        ],
+        "name": "wiggle (1 , 100)",
+        "repeat": 1,
+        "type": "programMacro"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-UdExHabCz"
+      }
+    },
+    "downLeft": {
+      "enabled": "flick",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "AltLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyA",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "ArrowDown",
+            "type": "keydown"
+          },
+          {
+            "code": "Enter",
+            "type": "keydown"
+          }
+        ],
+        "name": "Position",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-ipYoG19bN"
+      }
+    },
+    "upRight": {
+      "enabled": "flick",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "Tab"
+          }
+        ],
+        "name": "FX Console",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-bIVqGLI@8"
+      }
+    },
+    "downRight": {
+      "enabled": "flick",
+      "switchMenu": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "MetaLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyD",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyD",
+            "type": "keyup"
+          },
+          {
+            "code": "MetaLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "F1",
+            "type": "keydown"
+          },
+          {
+            "code": "F1",
+            "type": "keyup"
+          },
+          {
+            "code": "MetaLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyD",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyD",
+            "type": "keyup"
+          },
+          {
+            "code": "MetaLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "MetaLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keydown"
+          },
+          {
+            "code": "Slash",
+            "type": "keydown"
+          },
+          {
+            "code": "Slash",
+            "type": "keyup"
+          },
+          {
+            "code": "AltLeft",
+            "type": "keyup"
+          },
+          {
+            "code": "MetaLeft",
+            "type": "keyup"
+          }
+        ],
+        "name": "複製して差し替え",
+        "repeat": 1,
+        "type": "programMacro"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-JKPmZo47B"
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 253,
+        "g": 164,
+        "b": 98,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "+- 10 frame",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "PageUp"
+            }
+          ],
+          "name": "- 10 frame",
+          "type": "keyStroke"
+        },
+        "right": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "PageDown"
+            }
+          ],
+          "name": "+ 10 frame",
+          "repeat": 1,
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "処理を戻す",
+          "type": "keyStroke"
+        }
+      },
+      "down": {
+        "name": "Opacity -10 / +10",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "NumpadSubtract"
+            }
+          ],
+          "name": "Opacity -10",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "NumpadAdd"
+            }
+          ],
+          "name": "Opacity +10",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "処理を戻す",
+          "type": "keyStroke"
+        }
+      },
+      "left": {
+        "name": "Layer -10f / +10f",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "PageUp"
+            }
+          ],
+          "name": "Layer -10 f",
+          "type": "keyStroke"
+        },
+        "right": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "PageDown"
+            }
+          ],
+          "name": "Layer +10f",
+          "repeat": 1,
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "処理を戻す",
+          "type": "keyStroke"
+        }
+      },
+      "right": {
+        "name": "keyframe -10 / +10 ",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "-10 f keyframe",
+          "type": "keyStroke"
+        },
+        "right": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "+10 f keyframe",
+          "repeat": 1,
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "処理を戻す",
+          "type": "keyStroke"
+        }
+      },
+      "upLeft": {
+        "name": "Layer　-1f / +1f",
+        "left": {
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "PageUp"
+            }
+          ],
+          "name": "レイヤーを1ｆ上げる",
+          "type": "keyStroke"
+        },
+        "right": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "PageDown"
+            }
+          ],
+          "name": "レイヤーを1ｆ下げる",
+          "repeat": 1,
+          "type": "keyStroke"
+        },
+        "click": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "処理を戻す",
+          "repeat": 1,
+          "type": "keyStroke"
+        }
+      },
+      "downLeft": {
+        "name": "Rotate -10 / +10",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "NumpadSubtract"
+            }
+          ],
+          "name": "Rotate -10",
+          "type": "keyStroke"
+        },
+        "right": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "NumpadAdd"
+            }
+          ],
+          "name": "Rotate +10",
+          "repeat": 1,
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "処理を戻す",
+          "type": "keyStroke"
+        }
+      },
+      "upRight": {
+        "name": "keyframe -1 / +1",
+        "left": {
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "-1f  keyframe",
+          "type": "keyStroke"
+        },
+        "right": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "+1f keyframe",
+          "repeat": 1,
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "処理を戻す",
+          "type": "keyStroke"
+        }
+      },
+      "downRight": {
+        "name": "scale -10 / +10",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "NumpadSubtract"
+            }
+          ],
+          "name": "scale -10",
+          "type": "keyStroke"
+        },
+        "right": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "NumpadAdd"
+            }
+          ],
+          "name": "scale +10",
+          "repeat": 1,
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "MetaLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "処理を戻す",
+          "type": "keyStroke"
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "delay": 0,
+        "name": "ディレイ",
+        "repeat": 1,
+        "text": "",
+        "type": "textBlock"
+      },
+      "down": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "leftRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "press": {
+        "keys": [
+          {
+            "code": "AltLeft"
+          },
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "KeyE"
+          }
+        ],
+        "name": "add expression",
+        "type": "keyStroke"
+      },
+      "rightRota": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": [
+      {
+        "name": "EX contine",
+        "id": "group-ipYoG19bN",
+        "items": [
+          {
+            "type": "programMacro",
+            "name": "上へ進み続ける",
+            "keys": [
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowUp",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowUp",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowUp",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowUp",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowUp",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowUp",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyL",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyL",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyU",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyU",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyT",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyC",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyC",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          },
+          {
+            "type": "programMacro",
+            "name": "右へ進み続ける",
+            "keys": [
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowRight",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowRight",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowRight",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowRight",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowRight",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowRight",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyL",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyL",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyU",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyU",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyT",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyC",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyC",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          },
+          {
+            "type": "programMacro",
+            "name": "左へ進み続ける",
+            "keys": [
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyL",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyL",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyU",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyU",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyT",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyC",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyC",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          },
+          {
+            "type": "programMacro",
+            "name": "下へ進み続ける",
+            "keys": [
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyL",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyL",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyP",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyP",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyU",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyU",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyT",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyC",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyC",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "name": "EX wiggle",
+        "id": "group-UdExHabCz",
+        "items": [
+          {
+            "type": "programMacro",
+            "name": "wiggle (1 , 100)",
+            "keys": [
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyW",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyW",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyI",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyI",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyG",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyG",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Comma",
+                "type": "keydown"
+              },
+              {
+                "code": "Comma",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "wiggle (1 , 100"
+          },
+          {
+            "type": "programMacro",
+            "name": "wiggle (5 , 200)",
+            "keys": [
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyW",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyW",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyI",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyI",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyG",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyG",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad5",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad5",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Comma",
+                "type": "keydown"
+              },
+              {
+                "code": "Comma",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad2",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad2",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "wiggle (5 , 200"
+          },
+          {
+            "type": "programMacro",
+            "name": "wiggle (10 , 10)",
+            "keys": [
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyW",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyI",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyW",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyI",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyG",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyG",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Comma",
+                "type": "keydown"
+              },
+              {
+                "code": "Comma",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "wiggle (10 , 10"
+          },
+          {
+            "type": "programMacro",
+            "name": "wiggle (10 , 1000)",
+            "keys": [
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyW",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyI",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyW",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyI",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyG",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyG",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Comma",
+                "type": "keydown"
+              },
+              {
+                "code": "Comma",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "wiggle (10 , 1000"
+          }
+        ]
+      },
+      {
+        "name": "EX random",
+        "id": "group-pz42O$Wff",
+        "items": [
+          {
+            "type": "programMacro",
+            "name": "random (0 , 100)",
+            "keys": [
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyR",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyR",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyA",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyA",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyN",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyN",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Comma",
+                "type": "keydown"
+              },
+              {
+                "code": "Comma",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          },
+          {
+            "type": "programMacro",
+            "name": "random(25 , 75)",
+            "keys": [
+              {
+                "code": "ControlLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "BracketLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyR",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyA",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyR",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyN",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyA",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyN",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad2",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad2",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad5",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad5",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Comma",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Comma",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad7",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad5",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad7",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad5",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "name": "プロファイル切り替え",
+        "id": "group-twr1mqMEM",
+        "items": [
+          {
+            "type": "otherFunction",
+            "name": "プロファイル切り替え",
+            "keys": [],
+            "delay": 0,
+            "file": "",
+            "function": "switch_profile",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "name": "Quick Flash",
+        "id": "group-bIVqGLI@8",
+        "items": [
+          {
+            "type": "programMacro",
+            "name": "Quick Flash 10 90 * 5 2f",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad9",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad9",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": "5"
+          },
+          {
+            "type": "programMacro",
+            "name": "Quick Flash 0 100 * 5 1f",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyT",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "PageDown",
+                "type": "keydown"
+              },
+              {
+                "code": "PageDown",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": "5"
+          }
+        ]
+      },
+      {
+        "name": "差し替え",
+        "id": "group-JKPmZo47B",
+        "items": [
+          {
+            "type": "programMacro",
+            "name": "複製して差し替え ",
+            "keys": [
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyD",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "F1",
+                "type": "keydown"
+              },
+              {
+                "code": "F1",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Slash",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          },
+          {
+            "type": "programMacro",
+            "name": "写真挿入",
+            "keys": [
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Slash",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyG",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "IntlYen",
+                "type": "keydown"
+              },
+              {
+                "code": "IntlYen",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Period",
+                "type": "keydown"
+              },
+              {
+                "code": "Period",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": "10"
+          },
+          {
+            "type": "programMacro",
+            "name": "上へ順次差し替え",
+            "keys": [
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Slash",
+                "type": "keydown"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowUp",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": "10"
+          },
+          {
+            "type": "programMacro",
+            "name": "1 2 レイヤーを差し替え",
+            "keys": [
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Slash",
+                "type": "keydown"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "IntlYen",
+                "type": "keydown"
+              },
+              {
+                "code": "IntlYen",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Period",
+                "type": "keydown"
+              },
+              {
+                "code": "Period",
+                "type": "keyup"
+              },
+              {
+                "code": "AltLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad1",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad2",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad2",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Numpad0",
+                "type": "keydown"
+              },
+              {
+                "code": "MetaLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "flickGroups": {
+    "groups": [
+      {
+        "name": "Ex continue",
+        "id": "group-lDyJ4LQ4D",
+        "items": {
+          "up": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "down": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "left": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "right": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "upLeft": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "downLeft": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "upRight": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "downRight": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          }
+        }
+      },
+      {
+        "name": "other Macro",
+        "id": "group-RWegNFqnu",
+        "items": {
+          "up": {
+            "delay": 0,
+            "keys": [
+              {
+                "code": "ControlRight",
+                "type": "keydown"
+              },
+              {
+                "code": "F2",
+                "type": "keydown"
+              },
+              {
+                "code": "F2",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlRight",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyF",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyF",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlRight",
+                "type": "keydown"
+              },
+              {
+                "code": "ControlRight",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlRight",
+                "type": "keydown"
+              },
+              {
+                "code": "ControlRight",
+                "type": "keyup"
+              },
+              {
+                "code": "F2",
+                "type": "keydown"
+              },
+              {
+                "code": "F2",
+                "type": "keyup"
+              },
+              {
+                "code": "F2",
+                "type": "keydown"
+              },
+              {
+                "code": "F2",
+                "type": "keyup"
+              }
+            ],
+            "name": "Flow",
+            "repeat": 1,
+            "type": "programMacro"
+          },
+          "down": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "left": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "right": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "upLeft": {
+            "delay": 0,
+            "keys": [
+              {
+                "code": "ControlRight",
+                "type": "keydown"
+              },
+              {
+                "code": "F2",
+                "type": "keydown"
+              },
+              {
+                "code": "F2",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlRight",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowDown",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyO",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyO",
+                "type": "keyup"
+              }
+            ],
+            "name": "Overload",
+            "repeat": 1,
+            "type": "programMacro"
+          },
+          "downLeft": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "upRight": {
+            "delay": 0,
+            "keys": [
+              {
+                "code": "ControlRight",
+                "type": "keydown"
+              },
+              {
+                "code": "F2",
+                "type": "keydown"
+              },
+              {
+                "code": "F2",
+                "type": "keyup"
+              },
+              {
+                "code": "ControlRight",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "ArrowLeft",
+                "type": "keyup"
+              },
+              {
+                "code": "Space",
+                "type": "keydown"
+              },
+              {
+                "code": "Space",
+                "type": "keyup"
+              },
+              {
+                "code": "KeyU",
+                "type": "keydown"
+              },
+              {
+                "code": "KeyU",
+                "type": "keyup"
+              },
+              {
+                "code": "Enter",
+                "type": "keydown"
+              },
+              {
+                "code": "Enter",
+                "type": "keyup"
+              }
+            ],
+            "name": "Utility Box",
+            "repeat": 1,
+            "type": "programMacro"
+          },
+          "downRight": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          }
+        }
+      }
+    ]
+  },
+  "meta": {
+    "platform": "macOS",
+    "schema_app_version": "1.0.0",
+    "create_app_version": "1.2.1",
+    "modify_time": "2020-04-02T22:59:03+09:00"
+  }
+}

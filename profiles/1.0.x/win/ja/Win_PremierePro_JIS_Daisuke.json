@@ -1,0 +1,623 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "delay": 0,
+        "file": "",
+        "function": "switch_profile",
+        "name": "プロファイル切り替え",
+        "repeat": 1,
+        "type": "otherFunction"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyK"
+          }
+        ],
+        "name": "編集点を追加",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "AltLeft"
+          },
+          {
+            "code": "ArrowUp"
+          }
+        ],
+        "name": "クリップの選択範囲を上に移動",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "flick",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "Delete"
+          }
+        ],
+        "name": "リップル削除",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-jFMNnJmV9"
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "name": "取り消し",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyM"
+          }
+        ],
+        "name": "マーカー",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 251,
+        "g": 0,
+        "b": 255,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "パラメータ調整",
+        "left": {
+          "keys": [
+            {
+              "code": "ArrowUp"
+            }
+          ],
+          "name": "パラメーター左へ",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ArrowDown"
+            }
+          ],
+          "name": "パラメーター右へ",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "down": {
+        "name": "3フレーム",
+        "left": {
+          "keys": [
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "左に3フレーム移動",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "右に3フレーム移動",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "left": {
+        "name": "シーケンスまたはクリップ位置移動",
+        "left": {
+          "keys": [
+            {
+              "code": "Home"
+            }
+          ],
+          "name": "シーケンスまたはクリップ開始位置へ移動",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "End"
+            }
+          ],
+          "name": "シーケンスまたはクリップ終了位置へ移動",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [],
+          "name": "fit ",
+          "type": "keyStroke"
+        }
+      },
+      "right": {
+        "name": "ツール切り替え",
+        "left": {
+          "delay": 0,
+          "key_1": [
+            {
+              "code": "KeyY"
+            }
+          ],
+          "key_10": [],
+          "key_2": [
+            {
+              "code": "KeyA"
+            }
+          ],
+          "key_3": [
+            {
+              "code": "KeyB"
+            }
+          ],
+          "key_4": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "key_5": [
+            {
+              "code": "KeyX"
+            }
+          ],
+          "key_6": [
+            {
+              "code": "KeyY"
+            }
+          ],
+          "key_7": [],
+          "key_8": [],
+          "key_9": [],
+          "name": "reverse(key rotation)",
+          "repeat": 1,
+          "type": "keyRotation"
+        },
+        "right": {
+          "delay": 0,
+          "key_1": [
+            {
+              "code": "KeyY"
+            }
+          ],
+          "key_10": [],
+          "key_2": [
+            {
+              "code": "KeyA"
+            }
+          ],
+          "key_3": [
+            {
+              "code": "KeyB"
+            }
+          ],
+          "key_4": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "key_5": [
+            {
+              "code": "KeyX"
+            }
+          ],
+          "key_6": [
+            {
+              "code": "KeyY"
+            }
+          ],
+          "key_7": [],
+          "key_8": [],
+          "key_9": [],
+          "name": "reverse(key rotation)",
+          "repeat": 1,
+          "type": "keyRotation"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyK"
+            }
+          ],
+          "name": "シャトル停止",
+          "type": "keyStroke"
+        }
+      },
+      "upLeft": {
+        "name": "シーケンス_ズーム",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "ズームイン",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "ズームアウト",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "IntlYen"
+            }
+          ],
+          "name": "新規レイヤー",
+          "type": "keyStroke"
+        }
+      },
+      "downLeft": {
+        "name": "オーディオトラックの縦幅",
+        "left": {
+          "keys": [],
+          "name": "オーディオトラックの縦幅を広げる",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "オーディオトラックの縦幅を狭める",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            }
+          ],
+          "name": "",
+          "repeat": "1",
+          "type": "keyStroke"
+        }
+      },
+      "upRight": {
+        "name": "遅いシャトル",
+        "left": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "KeyJ"
+            }
+          ],
+          "name": "左へ遅くシャトル",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "KeyL"
+            }
+          ],
+          "name": "右へ遅くシャトル",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyK"
+            }
+          ],
+          "name": "100%",
+          "type": "keyStroke"
+        }
+      },
+      "downRight": {
+        "name": "１フレーム",
+        "left": {
+          "keys": [
+            {
+              "code": "ArrowLeft"
+            }
+          ],
+          "name": "コマ戻し",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ArrowRight"
+            }
+          ],
+          "name": "コマ送り",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "keys": [
+          {
+            "code": "KeyA"
+          }
+        ],
+        "name": "a",
+        "type": "keyStroke"
+      },
+      "down": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "left": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "right": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          }
+        ],
+        "name": "shift",
+        "type": "keyStroke"
+      },
+      "downLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "downRight": {
+        "keys": [],
+        "name": "a",
+        "type": "keyStroke"
+      },
+      "leftRota": {
+        "delay": 0,
+        "function": "scroll_to_left",
+        "name": "左",
+        "repeat": 1,
+        "type": "mouseFunction"
+      },
+      "press": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "rightRota": {
+        "delay": 0,
+        "function": "scroll_to_right",
+        "name": "右",
+        "repeat": 1,
+        "type": "mouseFunction"
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": []
+  },
+  "flickGroups": {
+    "groups": [
+      {
+        "name": "編集ツール",
+        "id": "group-jFMNnJmV9",
+        "items": {
+          "up": {
+            "keys": [
+              {
+                "code": "KeyB"
+              }
+            ],
+            "name": "リップル",
+            "type": "keyStroke"
+          },
+          "down": {
+            "keys": [
+              {
+                "code": "KeyA"
+              }
+            ],
+            "name": "トラックの前方表示",
+            "type": "keyStroke"
+          },
+          "left": {
+            "keys": [
+              {
+                "code": "KeyP"
+              }
+            ],
+            "name": "ペンツール",
+            "type": "keyStroke"
+          },
+          "right": {
+            "keys": [
+              {
+                "code": "KeyY"
+              }
+            ],
+            "name": "スリップ",
+            "type": "keyStroke"
+          },
+          "upLeft": {
+            "keys": [
+              {
+                "code": "KeyN"
+              }
+            ],
+            "name": "ローリングツール",
+            "type": "keyStroke"
+          },
+          "downLeft": {
+            "keys": [
+              {
+                "code": "KeyT"
+              }
+            ],
+            "name": "タイトル",
+            "type": "keyStroke"
+          },
+          "upRight": {
+            "keys": [
+              {
+                "code": "KeyC"
+              }
+            ],
+            "name": "ブレード",
+            "type": "keyStroke"
+          },
+          "downRight": {
+            "keys": [
+              {
+                "code": "KeyH"
+              }
+            ],
+            "name": "手のひらツール",
+            "type": "keyStroke"
+          }
+        }
+      }
+    ]
+  },
+  "meta": {
+    "platform": "macOS",
+    "schema_app_version": "1.0.0",
+    "create_app_version": "1.1.1",
+    "modify_time": "2019-10-03T15:44:11+09:00"
+  }
+}

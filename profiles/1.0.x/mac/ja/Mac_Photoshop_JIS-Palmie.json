@@ -1,0 +1,1088 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "flick",
+      "switchMenu": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          }
+        ],
+        "name": "ＳＨＩＦＴ",
+        "repeat": 1,
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-E$Toi3VdW"
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "AltRight"
+          },
+          {
+            "code": "MetaRight"
+          },
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "name": "取り消し",
+        "repeat": 1,
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "flick",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "name": "戻る",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-0GXftOyKk"
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "KeyB"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "KeyE"
+          }
+        ],
+        "key_3": [],
+        "key_4": [],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "name": "B/Eローテーション",
+        "repeat": 1,
+        "type": "keyRotation"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "delay": 0,
+        "name": "　",
+        "repeat": 1,
+        "text": "",
+        "type": "textBlock"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-7sLcks0XN"
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "delay": 0,
+        "file": "",
+        "function": "switch_to_alternate_switch",
+        "name": "",
+        "repeat": 1,
+        "type": "otherFunction"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "flick",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "Space"
+          }
+        ],
+        "name": "手のひらツール（スペース）",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-37KaLLOWj"
+      }
+    },
+    "downRight": {
+      "enabled": "flick",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "name": "戻る",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": "group-StFhMZIdm"
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 18,
+        "g": 0,
+        "b": 255,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "　",
+        "left": {
+          "keys": [
+            {
+              "code": "BracketRight"
+            }
+          ],
+          "name": "サイズダウン",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Backslash"
+            }
+          ],
+          "name": "サイズアップ",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "AltLeft"
+            },
+            {
+              "code": "ControlLeft"
+            }
+          ],
+          "name": "ドラッグでサイズ変更（押しながら右クリック",
+          "type": "keyStroke"
+        }
+      },
+      "down": {
+        "name": "ブラシ・消しゴム・スポイト",
+        "left": {
+          "keys": [
+            {
+              "code": "KeyE"
+            }
+          ],
+          "name": "消しゴム",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "KeyB"
+            }
+          ],
+          "name": "ブラシ",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "AltLeft"
+            }
+          ],
+          "name": "スポイト",
+          "type": "keyStroke"
+        }
+      },
+      "left": {
+        "name": "　",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "やりなおし",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ShiftLeft"
+            },
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "元に戻す",
+          "type": "keyStroke"
+        },
+        "click": {
+          "delay": 0,
+          "keys": [],
+          "name": "",
+          "repeat": 1,
+          "type": "programMacro"
+        }
+      },
+      "right": {
+        "name": "　",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "縮小",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "拡大",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyR"
+            }
+          ],
+          "name": "回転",
+          "type": "keyStroke"
+        }
+      },
+      "upLeft": {
+        "name": "",
+        "left": {
+          "keys": [
+            {
+              "code": "KeyQ"
+            }
+          ],
+          "name": "",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "KeyQ"
+            }
+          ],
+          "name": "",
+          "type": "keyStroke"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downLeft": {
+        "name": "",
+        "left": {
+          "delay": 0,
+          "keys": [],
+          "name": "",
+          "repeat": 1,
+          "type": "programMacro"
+        },
+        "right": {
+          "delay": 0,
+          "keys": [],
+          "name": "",
+          "repeat": 1,
+          "type": "programMacro"
+        },
+        "click": {
+          "delay": 0,
+          "keys": [],
+          "name": "",
+          "repeat": 1,
+          "type": "programMacro"
+        }
+      },
+      "upRight": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downRight": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "BracketRight"
+          }
+        ],
+        "name": "硬さ　下げる",
+        "repeat": 1,
+        "type": "keyStroke"
+      },
+      "down": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "Backslash"
+          }
+        ],
+        "name": "硬さ・上げる",
+        "type": "keyStroke"
+      },
+      "left": {
+        "keys": [
+          {
+            "code": "BracketRight"
+          }
+        ],
+        "name": "ペンサイズ　小さく",
+        "type": "keyStroke"
+      },
+      "right": {
+        "keys": [
+          {
+            "code": "Backslash"
+          }
+        ],
+        "name": "ペンサイズ・大きく",
+        "type": "keyStroke"
+      },
+      "upLeft": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "AltRight"
+          }
+        ],
+        "name": "　スポイト",
+        "repeat": 1,
+        "type": "keyStroke"
+      },
+      "upRight": {
+        "keys": [
+          {
+            "code": "KeyR"
+          }
+        ],
+        "name": "　回転",
+        "type": "keyStroke"
+      },
+      "downLeft": {
+        "keys": [
+          {
+            "code": "MetaLeft"
+          }
+        ],
+        "name": "　ctrl",
+        "type": "keyStroke"
+      },
+      "downRight": {
+        "keys": [
+          {
+            "code": "Space"
+          }
+        ],
+        "name": "　スペース",
+        "type": "keyStroke"
+      },
+      "leftRota": {
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "MetaRight"
+          },
+          {
+            "code": "Minus"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "ControlLeft"
+          }
+        ],
+        "key_3": [
+          {
+            "code": "MetaRight"
+          },
+          {
+            "code": "Minus"
+          }
+        ],
+        "key_4": [
+          {
+            "code": "ControlLeft"
+          }
+        ],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "keys": [
+          {
+            "code": "AltLeft"
+          },
+          {
+            "code": "ControlLeft"
+          }
+        ],
+        "name": "ズームアウト",
+        "repeat": 1,
+        "type": "keyRotation"
+      },
+      "press": {
+        "keys": [
+          {
+            "code": "Space"
+          }
+        ],
+        "name": "Space",
+        "type": "keyStroke"
+      },
+      "rightRota": {
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "MetaRight"
+          },
+          {
+            "code": "Semicolon"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "ControlLeft"
+          }
+        ],
+        "key_3": [
+          {
+            "code": "MetaRight"
+          },
+          {
+            "code": "Semicolon"
+          }
+        ],
+        "key_4": [
+          {
+            "code": "ControlLeft"
+          }
+        ],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "name": "ズームイン",
+        "repeat": 1,
+        "type": "keyRotation"
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": [
+      {
+        "name": "透明度",
+        "id": "group-StFhMZIdm",
+        "items": [
+          {
+            "type": "textBlock",
+            "name": "100",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "100"
+          },
+          {
+            "type": "textBlock",
+            "name": "90",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "90"
+          },
+          {
+            "type": "textBlock",
+            "name": "80",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "80"
+          },
+          {
+            "type": "textBlock",
+            "name": "70",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "70"
+          },
+          {
+            "type": "textBlock",
+            "name": "60",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "60"
+          },
+          {
+            "type": "textBlock",
+            "name": "50",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "50"
+          },
+          {
+            "type": "textBlock",
+            "name": "40",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "40"
+          },
+          {
+            "type": "textBlock",
+            "name": "30",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "30"
+          },
+          {
+            "type": "textBlock",
+            "name": "20",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "20"
+          },
+          {
+            "type": "textBlock",
+            "name": "10",
+            "keys": [],
+            "delay": 0,
+            "repeat": 1,
+            "text": "10"
+          }
+        ]
+      },
+      {
+        "name": "流量",
+        "id": "group-37KaLLOWj",
+        "items": [
+          {
+            "type": "programMacro",
+            "name": "90",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit9",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit9",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "90"
+          },
+          {
+            "type": "programMacro",
+            "name": "80",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit8",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "80"
+          },
+          {
+            "type": "programMacro",
+            "name": "70",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit7",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit7",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "70"
+          },
+          {
+            "type": "programMacro",
+            "name": "60",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit6",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit6",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "60"
+          },
+          {
+            "type": "programMacro",
+            "name": "50",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit5",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit5",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "50"
+          },
+          {
+            "type": "programMacro",
+            "name": "40",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit4",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit4",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "40"
+          },
+          {
+            "type": "programMacro",
+            "name": "30",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit3",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit3",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "30"
+          },
+          {
+            "type": "programMacro",
+            "name": "20",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit2",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "20"
+          },
+          {
+            "type": "programMacro",
+            "name": "10",
+            "keys": [
+              {
+                "code": "ShiftLeft",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit1",
+                "type": "keydown"
+              },
+              {
+                "code": "Digit1",
+                "type": "keyup"
+              },
+              {
+                "code": "ShiftLeft",
+                "type": "keyup"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1,
+            "text": "10"
+          }
+        ]
+      },
+      {
+        "name": "マスク関連操作",
+        "id": "group-E$Toi3VdW",
+        "items": [
+          {
+            "type": "keyStroke",
+            "name": "レイヤーマスク・全て隠す",
+            "keys": [
+              {
+                "code": "AltLeft"
+              },
+              {
+                "code": "F1"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          },
+          {
+            "type": "keyStroke",
+            "name": "選択範囲外をマスク",
+            "keys": [
+              {
+                "code": "AltLeft"
+              },
+              {
+                "code": "F2"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "name": "便利機能",
+        "id": "group-0GXftOyKk",
+        "items": [
+          {
+            "type": "keyStroke",
+            "name": "左右反転",
+            "keys": [
+              {
+                "code": "MetaRight"
+              },
+              {
+                "code": "ShiftLeft"
+              },
+              {
+                "code": "KeyP"
+              }
+            ],
+            "delay": 0,
+            "repeat": 1
+          }
+        ]
+      }
+    ]
+  },
+  "flickGroups": {
+    "groups": [
+      {
+        "name": "レイヤー・マスク関連機能",
+        "id": "group-iwg@paA95",
+        "items": {
+          "up": {
+            "keys": [
+              {
+                "code": "ShiftLeft"
+              },
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyN"
+              }
+            ],
+            "name": "新規レイヤー",
+            "type": "keyStroke"
+          },
+          "down": {
+            "keys": [
+              {
+                "code": "AltLeft"
+              },
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyG"
+              }
+            ],
+            "name": "クリッピング",
+            "type": "keyStroke"
+          },
+          "left": {
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyT"
+              }
+            ],
+            "name": "変形",
+            "type": "keyStroke"
+          },
+          "right": {
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyU"
+              }
+            ],
+            "name": "色相・彩度",
+            "type": "keyStroke"
+          },
+          "upLeft": {
+            "delay": 0,
+            "keys": [
+              {
+                "code": "ShiftLeft"
+              },
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyM"
+              }
+            ],
+            "name": "マスク作成　全て隠す（ＳＨＩＴ　ＣＴＲＬ　Ｍ",
+            "repeat": 1,
+            "type": "keyStroke"
+          },
+          "downLeft": {
+            "type": "keyStroke",
+            "name": "",
+            "keys": []
+          },
+          "upRight": {
+            "delay": 0,
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyG"
+              }
+            ],
+            "name": "レイヤーフォルダ",
+            "repeat": 1,
+            "type": "keyStroke"
+          },
+          "downRight": {
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyE"
+              }
+            ],
+            "name": "下のレイヤーと結合",
+            "type": "keyStroke"
+          }
+        }
+      }
+    ]
+  },
+  "meta": {
+    "platform": "macOS",
+    "schema_app_version": "1.0.0",
+    "create_app_version": "1.2.0",
+    "modify_time": "2020-01-29T14:49:59+09:00"
+  }
+}

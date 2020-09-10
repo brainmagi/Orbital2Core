@@ -1,0 +1,706 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyB"
+          }
+        ],
+        "name": "ブラシ",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-ZtQ8bEtAe"
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "AltLeft"
+          }
+        ],
+        "name": "Alt",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-NHHPvqxWZ"
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "Space"
+          }
+        ],
+        "name": "手のひら",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "name": "アンドゥ",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-ZtQ8bEtAe"
+      }
+    },
+    "upLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          }
+        ],
+        "name": "Ctrl",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyE"
+          }
+        ],
+        "name": "消しゴム",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-NHHPvqxWZ"
+      }
+    },
+    "upRight": {
+      "enabled": "flick",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyE"
+          }
+        ],
+        "name": "消しゴム",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-ZtQ8bEtAe"
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          }
+        ],
+        "name": "Sift",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "flick",
+        "groupId": "group-NHHPvqxWZ"
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 34,
+        "g": 0,
+        "b": 255,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "ズームイン・ズームアウト",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "キャンバス縮小",
+          "repeat": "1",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "キャンバス拡大",
+          "repeat": "1",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "name": "キャンバス回転",
+          "type": "keyStroke"
+        }
+      },
+      "down": {
+        "name": "ブラシサイズ",
+        "left": {
+          "keys": [
+            {
+              "code": "BracketRight"
+            }
+          ],
+          "name": "ブラシ縮小",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Backslash"
+            }
+          ],
+          "name": "ブラシ拡大",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "KeyZ"
+            }
+          ],
+          "name": "アンドゥ",
+          "type": "keyStroke"
+        }
+      },
+      "left": {
+        "name": "ズームイン・ズームアウト",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "キャンバス縮小",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "キャンバス拡大",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "name": "キャンバス回転",
+          "type": "keyStroke"
+        }
+      },
+      "right": {
+        "name": "ブラシサイズ",
+        "left": {
+          "keys": [
+            {
+              "code": "BracketRight"
+            }
+          ],
+          "name": "ブラシ縮小",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Backslash"
+            }
+          ],
+          "name": "ブラシ拡大",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "name": "キャンバス回転",
+          "type": "keyStroke"
+        }
+      },
+      "upLeft": {
+        "name": "ズームイン・ズームアウト",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "キャンバス縮小",
+          "repeat": "1",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "キャンバス拡大",
+          "repeat": "1",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "name": "キャンバス回転",
+          "type": "keyStroke"
+        }
+      },
+      "downLeft": {
+        "name": "ズームイン・ズームアウト",
+        "left": {
+          "delay": 0,
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "キャンバス縮小",
+          "repeat": 1,
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "キャンバス拡大",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "name": "キャンバス回転",
+          "type": "keyStroke"
+        }
+      },
+      "upRight": {
+        "name": "ズームイン・ズームアウト",
+        "left": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Minus"
+            }
+          ],
+          "name": "キャンバス縮小",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "ControlLeft"
+            },
+            {
+              "code": "Semicolon"
+            }
+          ],
+          "name": "キャンバス拡大",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "name": "キャンバス回転",
+          "type": "keyStroke"
+        }
+      },
+      "downRight": {
+        "name": "ブラシサイズ",
+        "left": {
+          "keys": [
+            {
+              "code": "BracketRight"
+            }
+          ],
+          "name": "ブラシ縮小",
+          "type": "keyStroke"
+        },
+        "right": {
+          "keys": [
+            {
+              "code": "Backslash"
+            }
+          ],
+          "name": "ブラシ拡大",
+          "type": "keyStroke"
+        },
+        "click": {
+          "keys": [
+            {
+              "code": "KeyN"
+            }
+          ],
+          "name": "キャンバス回転",
+          "type": "keyStroke"
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "keys": [
+          {
+            "code": "Backspace"
+          }
+        ],
+        "name": "Backspace",
+        "type": "keyStroke"
+      },
+      "down": {
+        "keys": [
+          {
+            "code": "KeyN"
+          }
+        ],
+        "name": "キャンバス回転",
+        "type": "keyStroke"
+      },
+      "left": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "Minus"
+          }
+        ],
+        "name": "ズームアウト",
+        "type": "keyStroke"
+      },
+      "right": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "Semicolon"
+          }
+        ],
+        "name": "ズームイン",
+        "type": "keyStroke"
+      },
+      "upLeft": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "upRight": {
+        "keys": [
+          {
+            "code": "Escape"
+          }
+        ],
+        "name": "キャンバス回転リセット",
+        "type": "keyStroke"
+      },
+      "downLeft": {
+        "keys": [
+          {
+            "code": "KeyV"
+          }
+        ],
+        "name": "混合ブラシ",
+        "type": "keyStroke"
+      },
+      "downRight": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "leftRota": {
+        "keys": [
+          {
+            "code": "BracketRight"
+          }
+        ],
+        "name": "ブラシ縮小",
+        "type": "keyStroke"
+      },
+      "press": {
+        "keys": [
+          {
+            "code": "Enter"
+          }
+        ],
+        "name": "ENTER",
+        "type": "keyStroke"
+      },
+      "rightRota": {
+        "keys": [
+          {
+            "code": "Backslash"
+          }
+        ],
+        "name": "ブラシ拡大",
+        "type": "keyStroke"
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": []
+  },
+  "flickGroups": {
+    "groups": [
+      {
+        "name": "ブラシ関係",
+        "id": "group-NHHPvqxWZ",
+        "items": {
+          "up": {
+            "keys": [],
+            "name": "ブラシ2",
+            "type": "keyStroke"
+          },
+          "down": {
+            "keys": [
+              {
+                "code": "KeyJ"
+              }
+            ],
+            "name": "バケツ",
+            "type": "keyStroke"
+          },
+          "left": {
+            "keys": [],
+            "name": "消しゴム3",
+            "type": "keyStroke"
+          },
+          "right": {
+            "keys": [],
+            "name": "ブラシ4",
+            "type": "keyStroke"
+          },
+          "upLeft": {
+            "keys": [],
+            "name": "消しゴム2",
+            "type": "keyStroke"
+          },
+          "downLeft": {
+            "keys": [
+              {
+                "code": "KeyN"
+              }
+            ],
+            "name": "色混ぜ",
+            "type": "keyStroke"
+          },
+          "upRight": {
+            "keys": [],
+            "name": "ブラシ3",
+            "type": "keyStroke"
+          },
+          "downRight": {
+            "keys": [],
+            "name": "ブラシ5",
+            "type": "keyStroke"
+          }
+        }
+      },
+      {
+        "name": "選択・移動系",
+        "id": "group-ZtQ8bEtAe",
+        "items": {
+          "up": {
+            "keys": [
+              {
+                "code": "KeyM"
+              }
+            ],
+            "name": "投げ縄",
+            "type": "keyStroke"
+          },
+          "down": {
+            "keys": [
+              {
+                "code": "AltLeft"
+              },
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyT"
+              }
+            ],
+            "name": "ワープ",
+            "type": "keyStroke"
+          },
+          "left": {
+            "keys": [
+              {
+                "code": "KeyL"
+              }
+            ],
+            "name": "多角形選択",
+            "type": "keyStroke"
+          },
+          "right": {
+            "keys": [
+              {
+                "code": "KeyK"
+              }
+            ],
+            "name": "レイヤー移動",
+            "type": "keyStroke"
+          },
+          "upLeft": {
+            "keys": [
+              {
+                "code": "KeyW"
+              }
+            ],
+            "name": "自動選択",
+            "type": "keyStroke"
+          },
+          "downLeft": {
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyT"
+              }
+            ],
+            "name": "変形",
+            "type": "keyStroke"
+          },
+          "upRight": {
+            "keys": [
+              {
+                "code": "ControlLeft"
+              },
+              {
+                "code": "KeyD"
+              }
+            ],
+            "name": "選択範囲解除",
+            "type": "keyStroke"
+          },
+          "downRight": {
+            "keys": [
+              {
+                "code": "KeyJ"
+              }
+            ],
+            "name": "バケツ",
+            "type": "keyStroke"
+          }
+        }
+      }
+    ]
+  },
+  "meta": {
+    "platform": "Windows",
+    "schema_app_version": "1.0.0",
+    "create_app_version": "1.1.4",
+    "modify_time": "2019-12-25T16:14:39+09:00"
+  }
+}

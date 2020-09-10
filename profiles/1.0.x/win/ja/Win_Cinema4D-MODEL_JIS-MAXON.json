@@ -1,0 +1,513 @@
+{
+  "flatRing": {
+    "up": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "KeyH"
+          }
+        ],
+        "name": "ジオメトリを表示",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "down": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "left": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "KeyC"
+          }
+        ],
+        "name": "コマンダー",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "right": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "AltLeft"
+          }
+        ],
+        "name": "Alt",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upLeft": {
+      "enabled": "flick",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downLeft": {
+      "enabled": "switch",
+      "switchMenu": {
+        "type": "keyStroke",
+        "name": "",
+        "keys": []
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "upRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          }
+        ],
+        "name": "shift",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    },
+    "downRight": {
+      "enabled": "switch",
+      "switchMenu": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          }
+        ],
+        "name": "Ctrl",
+        "type": "keyStroke"
+      },
+      "flickMenu": {
+        "enabled": "popup",
+        "groupId": ""
+      }
+    }
+  },
+  "glow_ring": {
+    "colorCode": {
+      "profile": {
+        "r": 255,
+        "g": 77,
+        "b": 0,
+        "a": 1
+      },
+      "orbital_engine": {
+        "r": 255,
+        "g": 243,
+        "b": 130
+      },
+      "joystick": {
+        "r": 40,
+        "g": 35,
+        "b": 142
+      },
+      "mouse": {
+        "r": 227,
+        "g": 41,
+        "b": 141
+      }
+    },
+    "options": {
+      "illumination": true,
+      "blinking": true
+    }
+  },
+  "orbital_engine": {
+    "orbitalEngine": {
+      "up": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "delay": 0,
+          "keys": [],
+          "name": "",
+          "repeat": 1,
+          "type": "programMacro"
+        }
+      },
+      "down": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "left": {
+        "name": "",
+        "left": {
+          "delay": 0,
+          "name": "平面カット",
+          "repeat": 1,
+          "text": "",
+          "type": "textBlock"
+        },
+        "right": {
+          "delay": 0,
+          "key_1": [
+            {
+              "code": "KeyT"
+            }
+          ],
+          "key_10": [],
+          "key_2": [
+            {
+              "code": "KeyR"
+            }
+          ],
+          "key_3": [
+            {
+              "code": "KeyE"
+            }
+          ],
+          "key_4": [],
+          "key_5": [],
+          "key_6": [],
+          "key_7": [],
+          "key_8": [],
+          "key_9": [],
+          "name": "SRP",
+          "repeat": 1,
+          "type": "keyRotation"
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "right": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upLeft": {
+        "name": "",
+        "left": {
+          "keys": [
+            {
+              "code": "KeyT"
+            }
+          ],
+          "name": "移動",
+          "type": "keyStroke"
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downLeft": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "upRight": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      },
+      "downRight": {
+        "name": "",
+        "left": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "right": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        },
+        "click": {
+          "type": "keyStroke",
+          "name": "",
+          "keys": []
+        }
+      }
+    },
+    "joystick": {
+      "up": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyA"
+          }
+        ],
+        "name": "すべて選択",
+        "type": "keyStroke"
+      },
+      "down": {
+        "keys": [
+          {
+            "code": "Space"
+          }
+        ],
+        "name": "スペース",
+        "type": "keyStroke"
+      },
+      "left": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "KeyQ"
+          }
+        ],
+        "name": "SDSオンオフ",
+        "repeat": 1,
+        "type": "keyStroke"
+      },
+      "right": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "KeyK",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyK",
+            "type": "keydown"
+          }
+        ],
+        "name": "ナイフ",
+        "repeat": 1,
+        "type": "programMacro"
+      },
+      "upLeft": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "ShiftLeft"
+          },
+          {
+            "code": "KeyS"
+          }
+        ],
+        "name": "スナップ・オンオフ",
+        "repeat": 1,
+        "type": "keyStroke"
+      },
+      "upRight": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "KeyK",
+            "type": "keydown"
+          },
+          {
+            "code": "46ms",
+            "type": "delay"
+          },
+          {
+            "code": "KeyJ",
+            "type": "keydown"
+          }
+        ],
+        "name": "平面カット",
+        "repeat": 1,
+        "type": "programMacro"
+      },
+      "downLeft": {
+        "keys": [
+          {
+            "code": "ControlLeft"
+          },
+          {
+            "code": "KeyZ"
+          }
+        ],
+        "name": "アンドゥ",
+        "type": "keyStroke"
+      },
+      "downRight": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "KeyK",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyL",
+            "type": "keydown"
+          }
+        ],
+        "name": "ループナイフ",
+        "repeat": 1,
+        "type": "programMacro"
+      },
+      "leftRota": {
+        "delay": 0,
+        "key_1": [
+          {
+            "code": "KeyE"
+          }
+        ],
+        "key_10": [],
+        "key_2": [
+          {
+            "code": "KeyR"
+          }
+        ],
+        "key_3": [
+          {
+            "code": "KeyT"
+          }
+        ],
+        "key_4": [],
+        "key_5": [],
+        "key_6": [],
+        "key_7": [],
+        "key_8": [],
+        "key_9": [],
+        "name": "PSR",
+        "repeat": 1,
+        "type": "keyRotation"
+      },
+      "press": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "AltLeft"
+          },
+          {
+            "code": "KeyD"
+          }
+        ],
+        "name": "軸の表示",
+        "repeat": 1,
+        "type": "keyStroke"
+      },
+      "rightRota": {
+        "delay": 0,
+        "keys": [
+          {
+            "code": "KeyM",
+            "type": "keydown"
+          },
+          {
+            "code": "KeyE",
+            "type": "keydown"
+          }
+        ],
+        "name": "ポリゴンペン",
+        "repeat": 1,
+        "type": "programMacro"
+      }
+    }
+  },
+  "popupGroups": {
+    "groups": []
+  },
+  "flickGroups": {
+    "groups": []
+  },
+  "meta": {
+    "platform": "Windows",
+    "schema_app_version": "1.0.0",
+    "create_app_version": "1.1.4",
+    "modify_time": "2020-03-02T15:27:59+09:00"
+  }
+}
