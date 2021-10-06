@@ -3,8 +3,7 @@ Orbital2([https://brainmagicproduct.com](Orbital2)) Application older releases.
 
 
 # Current version
-- 1.5.3(Mac)
-- 1.5.4(Windows)
+- 1.5.7
 
 # Release list
 https://github.com/brainmagi/Orbital2Core/releases
